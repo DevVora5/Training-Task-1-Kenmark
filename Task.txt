@@ -1,0 +1,37 @@
+Task: Build a Blogging Platform API
+
+Objective:
+Develop a RESTful API using Express.js for a blogging platform. The API should support operations related to blog posts, comments, and user authentication.
+
+ *Set Up Node.js Project:
+   - Initialize a new Node.js project using npm or yarn.
+   - Install necessary packages like express, body-parser, and sequelize.
+   - Set up a MySQL, or another SQL database for your project.
+   - Install Sequelize CLI to facilitate database migrations and model generation.
+
+Requirements:
+
+User Authentication:
+Implement user authentication using JWT (JSON Web Tokens).
+Create endpoints for user registration, login, and logout.
+
+Blog Posts:
+Create, update, and delete blog posts.
+Retrieve a list of all blog posts.
+Retrieve a specific blog post by ID.
+
+Comments:
+Allow users to add comments to a blog post.
+Retrieve all comments for a specific blog post.
+Update and delete comments.
+
+Middleware:
+Implement middleware to authenticate requests for protected endpoints.
+Use middleware to handle global error handling.
+
+Database:
+Use a relational database (e.g., MySQL) to store users, blog posts, and comments.
+
+Validation:
+Validate input data for creating and updating blog posts and comments.
+Ensure that only the author of a blog post can modify or delete it.
