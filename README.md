@@ -1,9 +1,8 @@
 # Training-Task-1-Kenmark
 
 Before running,
-add a .env
+add a .env file with data:
 
-.env
 "SECRET=<KEY>"
 
 Replace <KEY> with key of your choice
